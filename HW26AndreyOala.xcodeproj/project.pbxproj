@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		55A7A3F428AB971F00488DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7A3F328AB971F00488DBB /* AppDelegate.swift */; };
 		55A7A3F628AB971F00488DBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7A3F528AB971F00488DBB /* SceneDelegate.swift */; };
-		55A7A3F828AB971F00488DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7A3F728AB971F00488DBB /* ViewController.swift */; };
-		55A7A3FB28AB971F00488DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A7A3F928AB971F00488DBB /* Main.storyboard */; };
-		55A7A3FE28AB971F00488DBB /* HW26AndreyOala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55A7A3FC28AB971F00488DBB /* HW26AndreyOala.xcdatamodeld */; };
+		55A7A3F828AB971F00488DBB /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7A3F728AB971F00488DBB /* UsersViewController.swift */; };
 		55A7A40028AB972000488DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A7A3FF28AB972000488DBB /* Assets.xcassets */; };
 		55A7A40328AB972000488DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A7A40128AB972000488DBB /* LaunchScreen.storyboard */; };
+		55A7A41228AB991C00488DBB /* UsersProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7A41128AB991C00488DBB /* UsersProfileViewController.swift */; };
+		55D7800C28ACF8E8002A5712 /* HW26AndreyOala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55D7800A28ACF8E8002A5712 /* HW26AndreyOala.xcdatamodeld */; };
+		55D7801328ACF9B8002A5712 /* UserDataModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7801128ACF9B8002A5712 /* UserDataModel+CoreDataClass.swift */; };
+		55D7801428ACF9B8002A5712 /* UserDataModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7801228ACF9B8002A5712 /* UserDataModel+CoreDataProperties.swift */; };
+		55D7801628AE718F002A5712 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7801528AE718F002A5712 /* CoreDataModel.swift */; };
+		55D7801828AE71AC002A5712 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7801728AE71AC002A5712 /* CoreDataHelper.swift */; };
+		55D7801A28AE720B002A5712 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7801928AE720B002A5712 /* PersonTableViewCell.swift */; };
+		55D7801F28AE8695002A5712 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D7801E28AE8695002A5712 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55A7A3F028AB971F00488DBB /* HW26AndreyOala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW26AndreyOala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A7A3F328AB971F00488DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55A7A3F528AB971F00488DBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55A7A3F728AB971F00488DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		55A7A3FA28AB971F00488DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		55A7A3FD28AB971F00488DBB /* HW26AndreyOala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HW26AndreyOala.xcdatamodel; sourceTree = "<group>"; };
+		55A7A3F728AB971F00488DBB /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		55A7A3FF28AB972000488DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A7A40228AB972000488DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A7A40428AB972000488DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A7A41128AB991C00488DBB /* UsersProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProfileViewController.swift; sourceTree = "<group>"; };
+		55D7800B28ACF8E8002A5712 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		55D7801128ACF9B8002A5712 /* UserDataModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDataModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		55D7801228ACF9B8002A5712 /* UserDataModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDataModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		55D7801528AE718F002A5712 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		55D7801728AE71AC002A5712 /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		55D7801928AE720B002A5712 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		55D7801E28AE8695002A5712 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,62 @@
 		55A7A3F228AB971F00488DBB /* HW26AndreyOala */ = {
 			isa = PBXGroup;
 			children = (
+				55D7801D28AE8682002A5712 /* Extension */,
+				55D7801C28AE76F4002A5712 /* CoreData */,
+				55A7A40C28AB98BD00488DBB /* Presenter */,
+				55A7A40B28AB98B800488DBB /* Views */,
+				55A7A40A28AB98B100488DBB /* Model */,
 				55A7A3F328AB971F00488DBB /* AppDelegate.swift */,
 				55A7A3F528AB971F00488DBB /* SceneDelegate.swift */,
-				55A7A3F728AB971F00488DBB /* ViewController.swift */,
-				55A7A3F928AB971F00488DBB /* Main.storyboard */,
 				55A7A3FF28AB972000488DBB /* Assets.xcassets */,
 				55A7A40128AB972000488DBB /* LaunchScreen.storyboard */,
 				55A7A40428AB972000488DBB /* Info.plist */,
-				55A7A3FC28AB971F00488DBB /* HW26AndreyOala.xcdatamodeld */,
 			);
 			path = HW26AndreyOala;
+			sourceTree = "<group>";
+		};
+		55A7A40A28AB98B100488DBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D7801928AE720B002A5712 /* PersonTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55A7A40B28AB98B800488DBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55A7A3F728AB971F00488DBB /* UsersViewController.swift */,
+				55A7A41128AB991C00488DBB /* UsersProfileViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55A7A40C28AB98BD00488DBB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				55D7801728AE71AC002A5712 /* CoreDataHelper.swift */,
+				55D7801528AE718F002A5712 /* CoreDataModel.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		55D7801C28AE76F4002A5712 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				55D7801128ACF9B8002A5712 /* UserDataModel+CoreDataClass.swift */,
+				55D7801228ACF9B8002A5712 /* UserDataModel+CoreDataProperties.swift */,
+				55D7800A28ACF8E8002A5712 /* HW26AndreyOala.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		55D7801D28AE8682002A5712 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				55D7801E28AE8695002A5712 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +188,6 @@
 			files = (
 				55A7A40328AB972000488DBB /* LaunchScreen.storyboard in Resources */,
 				55A7A40028AB972000488DBB /* Assets.xcassets in Resources */,
-				55A7A3FB28AB971F00488DBB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A7A3F828AB971F00488DBB /* ViewController.swift in Sources */,
+				55D7801828AE71AC002A5712 /* CoreDataHelper.swift in Sources */,
+				55A7A3F828AB971F00488DBB /* UsersViewController.swift in Sources */,
 				55A7A3F428AB971F00488DBB /* AppDelegate.swift in Sources */,
-				55A7A3FE28AB971F00488DBB /* HW26AndreyOala.xcdatamodeld in Sources */,
+				55D7801F28AE8695002A5712 /* Extension.swift in Sources */,
+				55A7A41228AB991C00488DBB /* UsersProfileViewController.swift in Sources */,
+				55D7801A28AE720B002A5712 /* PersonTableViewCell.swift in Sources */,
+				55D7801628AE718F002A5712 /* CoreDataModel.swift in Sources */,
 				55A7A3F628AB971F00488DBB /* SceneDelegate.swift in Sources */,
+				55D7800C28ACF8E8002A5712 /* HW26AndreyOala.xcdatamodeld in Sources */,
+				55D7801428ACF9B8002A5712 /* UserDataModel+CoreDataProperties.swift in Sources */,
+				55D7801328ACF9B8002A5712 /* UserDataModel+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		55A7A3F928AB971F00488DBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				55A7A3FA28AB971F00488DBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		55A7A40128AB972000488DBB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +352,6 @@
 				INFOPLIST_FILE = HW26AndreyOala/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +379,6 @@
 				INFOPLIST_FILE = HW26AndreyOala/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,12 +418,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		55A7A3FC28AB971F00488DBB /* HW26AndreyOala.xcdatamodeld */ = {
+		55D7800A28ACF8E8002A5712 /* HW26AndreyOala.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				55A7A3FD28AB971F00488DBB /* HW26AndreyOala.xcdatamodel */,
+				55D7800B28ACF8E8002A5712 /* Model.xcdatamodel */,
 			);
-			currentVersion = 55A7A3FD28AB971F00488DBB /* HW26AndreyOala.xcdatamodel */;
+			currentVersion = 55D7800B28ACF8E8002A5712 /* Model.xcdatamodel */;
 			path = HW26AndreyOala.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
